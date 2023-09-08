@@ -1,0 +1,138 @@
+/**************reset***************/
+*{
+    margin :0;
+    padding :0;
+    box-sizing: border-box;   
+
+}
+a{
+
+    text-decoration: none;
+
+}
+img {
+    max-width: 100% ;
+}
+ul {
+    list-style: none;
+}
+/**************general***************/
+@font-face {
+    font-family:" Inter" ;
+    src: url(fonts2/Inter-Regular.ttf);
+    font-weight: 400 ,700 ; 
+}
+@font-face {
+    font-family:" Lexend Deca" ;
+    src: url(fonts/Fraunces_9pt_Soft-Bold.ttf);
+    font-weight: 400;
+}
+:root{ --very-dark-blue : hsl( 233, 47%, 7%);
+    --dark-desaturated-blue : hsl(244, 38%, 16%);
+    --Soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Slightly-transparent-white:hsla(0, 0%, 100%, 0.6);
+}
+body {
+    background-color: var(--Very-dark-blue);
+    text-align: center ;
+    font-size: 15px;
+    font-family: "Inter" "Lexend Dec";
+}
+h1{
+    color: var(--white);
+    font-size: 2.2em;
+    margin-bottom: 0.4em;
+    margin-top: 0.6em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-align: center;
+    font-family:" inter" ;
+    src: url(fonts2/Inter-Regular.ttf);
+    font-weight: 700;
+}
+/**************main***************/
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    background-color:var(--dark-desaturated-blue) ;
+    width: 90%;
+    padding: 0em;
+    margin-bottom: 0em;
+    border-radius: 0.625em;
+    -webkit-border-radius:0.625em ;
+    -moz-border-radius : 0.625em;
+    -ms-border-radius : 0.625em;
+    -o-border-radius :0.625em;
+    box-shadow: 0 3px 9px 2px var(--dark-desaturated-blue); 
+     
+
+    }
+    .box2 img {
+       width: 100% ;
+       background-color: var(--Soft-violet) ;
+       
+       
+    }
+    .pa {
+        color: var(--Slightly-transparent-white);
+        text-align: center;
+        font-family:" Lexend Deca" ;
+        src: url(fonts2/LexendDeca-Regular.ttf);
+        font-weight: 400;
+        font-size: 1.5em;
+        margin-bottom: 0.9em;
+        margin-top:0.4em ;
+        padding-top: 0.9em;
+    }
+    span {
+        color: var(--Soft-violet);
+    }
+   /* .foot{
+        font-size: 2em;
+        color: var(--white);
+        font-family:"inter" ;
+        src: url(fonts2/Inter-Regular.ttf);
+        font-weight: 700;
+    */
+   p{
+    font-size: 0.8em;
+        color: var(--Slightly-transparent-white);
+        font-family:"inter" ;
+        src: url(fonts2/LexendDeca-Regular.ttf);
+        font-weight: 700;
+   }
+   h2
+   {
+    font-size:2em;
+        color: var(--white);
+        font-family:"inter" ;
+        src: url(fonts2/Inter-Regular.ttf);
+        font-weight: 400;
+   }
+   h3{
+    
+        font-size:2em;
+            color: var(--white);
+            font-family:"inter" ;
+            src: url(fonts2/Inter-Regular.ttf);
+            font-weight: 400;
+       }
+       h4{
+        
+            font-size:2em;
+                color: var(--white);
+                font-family:"inter" ;
+                src: url(fonts2/Inter-Regular.ttf);
+                font-weight: 400;
+           
+       }
+    
+
+/**************mediaquery***************/
